@@ -20,6 +20,21 @@ body {
     font-family: 'Lato';
 }
 
+#selfie {
+    height: 20em;
+    width: auto;
+    margin-top: 3em;
+}
+.about-info {
+    margin-top: 5em;
+    margin-left: 10em;
+}
+
+.blue {
+    color:#337ab7;
+    font-weight: bolder;
+}
+
 .about {
     height: 100%;
     width: 100%;
@@ -165,5 +180,16 @@ li {
         margin: auto;
         text-align: center;
     }
+    
+}
+
+@media (max-width: 768px) {
+    #selfie {
+        display: none;
+    }
+    .about-info {
+        margin: 0;
+        padding: 2em;
+    }   
     
 }
