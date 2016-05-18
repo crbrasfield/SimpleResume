@@ -1,5 +1,5 @@
 body {
-    background: url(../images/bg.jpg);
+    /*background: url(../images/bg.jpg);*/
     /*background-size: cover;*/
     height: 100%;
     background-repeat: no-repeat;
@@ -43,14 +43,14 @@ body {
 .sub-head {
     font-weight: bolder;
     text-align: center;
-    color: #0b1e24;
+    color: #337ab7;
 }
 .sub-head-large {
     font-weight: bolder;
     text-align: center;
     margin-top: 0.1em;
     margin-bottom: -0.4em;
-    color: #0b1e24;
+    color: #337ab7;
 }
 
 .card {
