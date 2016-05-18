@@ -1,6 +1,9 @@
 body {
-    /*background: url(../images/bg.jpg);*/
-    background-size: cover;
+    background: url(../images/bg.jpg);
+    /*background-size: cover;*/
+    height: 100%;
+    background-repeat: no-repeat;
+
 }
 
 .nav {
@@ -24,8 +27,9 @@ body {
     /*background-color: lightgray;*/
 }
 
-.about p {
-    /*color: whitesmoke;*/
+.descriptor {
+    width: 60%;
+    margin-left: 1em;
 }
 
 .main-head {
@@ -50,14 +54,23 @@ body {
 }
 
 .card {
-    background-color:rgba(243,244,244,1);
-    /*box-shadow: 1px 1px 10px 1px whitesmoke;*/
+    /*background-color:rgba(243,244,244,1);*/
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px whitesmoke;
     border-radius: 1em;
     padding: 0.7em !important;
     min-height: 20em;
+    margin-bottom: 1em;
 }
 
-img {
+.line {
+    height: 0.2px;
+    /*border-color: #337ab7;
+    background-color: #337ab7;
+    color: #337ab7;*/
+}
+
+.tiny {
     height: 1.5em;
     width: 1.5em;
     margin-right: 0.8em;
@@ -82,18 +95,75 @@ img {
     /*background-color: lightgray;*/
 }
 
+.left {
+    float: left;
+    clear: both;
+}
+.right {
+    float: right;
+}
+    
+li {
+    font-size: 1.4em;
+}
+
+#contact {
+    max-width: 40em;
+    margin: auto;
+    padding: 1em;
+}
+#rating {
+    max-width: 40em;
+    margin: auto;
+    padding: 1em;
+}
+.success {
+    display: none;
+    color: green;
+    margin-top: 1em;
+}
+.error {
+    display: none;
+    color: red;
+    margin-top: 1em;
+
+}
+
+.contact-container {
+    /*background-color: black;
+    color: white;*/
+    padding: 2em;
+    margin: auto;
+    max-width: 40em;
+}
+
+.linkedin {
+    height: 1.5em;
+    width: 1.5em;
+    margin-right: 1em;
+}
+.github {
+    height: 1.5em;
+    width: 1.5em;
+    margin-right: 1em;
+}
 
 
 @media (max-width: 991px) {
     .content-wrap{
         width: 100%;
     }
-    
-    .card {
-        margin-bottom: 2em;
-    }
-    
     .main-head {
         text-align: center;
     }
+    .descriptor {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    ul {
+        margin: auto;
+        text-align: center;
+    }
+    
 }

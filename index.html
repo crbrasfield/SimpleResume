@@ -17,10 +17,10 @@
 
 <body>
     <div class="nav">
-        <a class="btn btn-default" onclick="showAbout()">About</a>
-        <a class="btn btn-default" onclick="showExp()">Experience</a>
-        <a class="btn btn-default" onclick="showSkills()">Skills</a>
-        <a class="btn btn-default" onclick="showContact()">Contact</a>
+        <a class="btn btn-default nav-btn" id="about-btn" onclick="showAbout()">About</a>
+        <a class="btn btn-default nav-btn" id="experience-btn" onclick="showExp()">Experience</a>
+        <a class="btn btn-default nav-btn" id="skills-btn" onclick="showSkills()">Skills</a>
+        <a class="btn btn-default nav-btn" id="contact-btn" onclick="showContact()">Contact</a>
     </div>
     <div class="content-wrap">
         <div class="content about animated fadeInUp">
@@ -39,12 +39,15 @@
         </div>
         <div class="content experience animated fadeInUp">
             <h1 class="main-head animated fadeInUp">Heres what I've done</h1>
+            <p class="descriptor">Studying Graphic Design in college provided me with the skills needed to give any project an appealing look and
+                feel. Learning code was challenging, but once I was proficient, carrying over my design skills was a breeze.
+            </p>
             <hr>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card animated fadeInLeft">
                         <h3 class="sub-head">Magic City Coders</h3>
-                        <hr>
+                        <hr class="line">
                         <h4>May 2nd - May 13th</h4>
                         <p>Role: Front End Developer</p>
                         <p>Interned as a front end developer. Assigned to a group of three, consisting of two developers and
@@ -53,26 +56,26 @@
                             we built a fully functioning front end interface with some backend services as well.
                         </p>
                         <hr>
-                        <a href="https://github.com/SirGreyson/Churp.Me"><img src="images/github.jpg" alt="GitHub Logo">View this project on GitHub</a>
+                        <a href="https://github.com/SirGreyson/Churp.Me"><img class="tiny" src="images/github.jpg" alt="GitHub Logo">View this project on GitHub</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
                         <h3 class="sub-head">Depot/U</h3>
-                        <hr>
+                        <hr class="line">
                         <h4>Feb 22nd - May 10th</h4>
                         <p>Role: Student</p>
                         <p>Depot/U is a ten-week, immersive software development program, specializing in front-end engineering
                             and cross-platform, dynamic, scalable, responsive apps. The conclusion of the course was to assemble
                             a small team of new developers and build a fully functional app of choice.</p>
                         <hr>
-                        <a href="https://github.com/tom5265/onTrack"><img src="images/github.jpg" alt="GitHub Logo">View this project on GitHub</a>
+                        <a href="https://github.com/tom5265/onTrack"><img class="tiny" src="images/github.jpg" alt="GitHub Logo">View this project on GitHub</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card animated fadeInRight">
                         <h3 class="sub-head-large">Crimson Tide Productions</h3>
-                        <hr>
+                        <hr class="line">
                         <h4>Jan - May 2015</h4>
                         <p>Role: Graphic Designer</p>
                         <p>Interned as a graphic designer. Duties included designing and creating promotional content such as
@@ -83,59 +86,47 @@
         </div>
         <div class="content skills animated fadeInUp">
             <h1 class="main-head">Some things I know</h1>
+            <p class="descriptor">Throughout college I picked up many skills related to design and photography. I've only recently been introduced
+                to the wonderful world of code. I've done nothing but learn since, and I don't plan on stopping anytime soon.
+            </p>
+            <hr>
             <div class="row">
                 <!--Left Card-->
-                <div class="col-sm-4">
-                    <div class="card animated fadeInLeft">
+                <div class="col-sm-6">
+                    <div class="card animated fadeInRight">
                         <h3 class="sub-head">Programing</h3>
-                        <hr>
+                        <hr class="line">
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-sm-6">
                                 <ul>
                                     <li>HTML5</li>
                                     <li>CSS3</li>
                                     <li>Javascript</li>
                                     <li>jQuery</li>
                                     <li>Less</li>
+                                    <li>Typescript</li>
                                     <li>PlatypusTS</li>
+                                    <li>AngularJS</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--Center Card-->
-                <div class="col-sm-4">
-                    <div class="card">
-                        <h3 class="sub-head">Design</h3>
-                        <hr>
+                <div class="col-sm-6">
+                    <div class="card animated fadeInLeft">
+                        <h3 class="sub-head">Design/Other</h3>
+                        <hr class="line">
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-sm-6">
                                 <ul>
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
-                                    <li>Javascript</li>
-                                    <li>jQuery</li>
-                                    <li>Less</li>
-                                    <li>PlatypusTS</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Right Card-->
-                <div class="col-sm-4">
-                    <div class="card animated fadeInRight">
-                        <h3 class="sub-head">Other</h3>
-                        <hr>
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <ul>
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
-                                    <li>Javascript</li>
-                                    <li>jQuery</li>
-                                    <li>Less</li>
-                                    <li>PlatypusTS</li>
+                                    <li>Illustrator</li>
+                                    <li>Photoshop</li>
+                                    <li>InDesign</li>
+                                    <li>Lightroom</li>
+                                    <li>Powerpoint</li>
+                                    <li>Photography</li>
+                                    <li>Videography</li>
                                 </ul>
                             </div>
                         </div>
@@ -145,8 +136,80 @@
         </div>
         <div class="content contact animated fadeInUp">
             <h1 class="main-head">How to reach me</h1>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="contact-container animated fadeInLeft">
+                        <p>Chase Brasfield</p>
+                        <p>253 High Ridge Drive, Pelham Alabama 35124</p>
+                        <p>205-601-4372</p>
+                        <p>chasebrasfield@gmail.com</p>
+                        <a href="https://www.linkedin.com/in/chase-brasfield-b43a09118"><img src="images/linkedin.png" class="linkedin"></a>
+                        <a href="https://github.com/crbrasfield"><img src="images/github.jpg" class="github"></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <form class="animated fadeInRight" id="rating">
+                        <h3>Leave a rating on what you thought!</h3>
+                        <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 1
+                </label>
+                        <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2"> 2
+                </label>
+                        <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3"> 3
+                </label>
+                        <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="4"> 4
+                </label>
+                        <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="5"> 5
+                </label>
+                        <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio6" value="6"> 6
+                </label>
+                        <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio7" value="7"> 7
+                </label>
+                        <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio8" value="8"> 8
+                </label>
+                        <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio9" value="9"> 9
+                </label>
+                        <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio10" value="10"> 10
+                </label>
+                        <br>
+                        <br>
+                        <a onclick="submitRating()" class="btn btn-default">Rate</a>
+                        <div class="success animated pulse">Successfully submitted. Thanks for the <span id="ratingNum"></span>!</div>
+                        <div class="error animated pulse">You must select a number!</div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <form id="contact">
+                        <h3>Message Me</h3>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Your Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="textarea">Message</label>
+                            <textarea class="form-control" rows="3" placeholder="Wow! You're awesome Chase!"></textarea>
+                        </div>
+                        <a onclick="submitForm()" class="btn btn-default">Submit</a>
+                        <hr>
+                    </form>
+                </div>
+            </div>
         </div>
-    </div>
 
 
 
