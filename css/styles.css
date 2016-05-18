@@ -1,0 +1,99 @@
+body {
+    /*background: url(../images/bg.jpg);*/
+    background-size: cover;
+}
+
+.nav {
+    margin: auto;
+    margin-top: 5em;
+    text-align: center;
+}
+
+.content-wrap {
+    min-height: 30em;
+    width: 65em;
+    padding-top: 5em;
+    margin: auto;
+    font-family: 'Lato';
+}
+
+.about {
+    height: 100%;
+    width: 100%;
+    padding: 0.5em;
+    /*background-color: lightgray;*/
+}
+
+.about p {
+    /*color: whitesmoke;*/
+}
+
+.main-head {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 0.3em;
+    font-weight: bolder;
+    /*color: whitesmoke;*/
+}
+
+.sub-head {
+    font-weight: bolder;
+    text-align: center;
+    color: #0b1e24;
+}
+.sub-head-large {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 0.1em;
+    margin-bottom: -0.4em;
+    color: #0b1e24;
+}
+
+.card {
+    background-color:rgba(243,244,244,1);
+    /*box-shadow: 1px 1px 10px 1px whitesmoke;*/
+    border-radius: 1em;
+    padding: 0.7em !important;
+    min-height: 20em;
+}
+
+img {
+    height: 1.5em;
+    width: 1.5em;
+    margin-right: 0.8em;
+    margin-left: 0.3em;
+}
+
+.experience {
+    height: 100%;
+    width: 100%;
+    /*background-color: lightgray;*/
+}
+
+.skills {
+    height: 100%;
+    width: 100%;
+    /*background-color: lightgray;*/
+}
+
+.contact {
+    height: 100%;
+    width: 100%;
+    /*background-color: lightgray;*/
+}
+
+
+
+@media (max-width: 991px) {
+    .content-wrap{
+        width: 100%;
+    }
+    
+    .card {
+        margin-bottom: 2em;
+    }
+    
+    .main-head {
+        text-align: center;
+    }
+}
